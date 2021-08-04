@@ -1,0 +1,38 @@
+JavaScript is used to make web applications very interactive and dynamic 
+95% will javascript
+
+JavaScript is a scripting language which can be used in client side (javascript)  and server sides (node js)
+Scripting Language 
+Programming Languages and Scripting Language 
+Programming langauges will use compiler  (pros and cons)
+Scripting langauges will interpretrer it execute the code 
+Interpreters will execute the code line by line (pros and cons)
+
+
+Where we will use the JavaScript
+--> JavaScript is everywhere 
+--> client side 
+--> server side  (node js)
+--> Mobile Application (React Native, Ionic)
+--> Desktop Application (Electron)
+
+
+-- Variables 
+Variables is used to store some information 
+
+Rules of Naming a variable 
+1) you cannot start with a number 
+2) You cannot given space between the varibale name 
+3) you cannot a special characters except $,_
+4) you cannot give the reservered keywords of javascript as variable name 
+
+Naming Convention
+1) cammel casing 
+firstName
+
+2) pascal casing 
+LastName
+
+3) snake casing
+first_name
+
