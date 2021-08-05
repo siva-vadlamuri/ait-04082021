@@ -7,7 +7,7 @@ Programming Languages and Scripting Language
 Programming langauges will use compiler  (pros and cons)
 Scripting langauges will interpretrer it execute the code 
 Interpreters will execute the code line by line (pros and cons)
-
+JIT 
 
 Where we will use the JavaScript
 --> JavaScript is everywhere 
@@ -35,4 +35,20 @@ LastName
 
 3) snake casing
 first_name
+
+<--------------------------------Data Type-------------------------------------------------------->
+Which Type the Data It is 
+1) numbers 
+2) strings
+3) Boolean (True/False)
+4) undefined
+when you declare a varibale and if you are not assigning anything 
+5) null
+6) Array 
+7) Object 
+
+JavaScript Dyanmic Typed Language
+Static Typed Langauge
+
+--> String Sequence of Characters 
 
