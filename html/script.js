@@ -68,3 +68,18 @@ console.log("Condtional Operators");
 // strict equal to it will check both value and data type
 // console.log('Shiva' === 'Shiva');
 console.log(false === 0);
+// Register 
+// email
+// password
+
+// Login
+
+// logical Operators (Boolean)
+// && || !
+
+let a = 10;
+let b = 20;
+// if you user name and password then only go to the dashboard 
+// && if both condtionals are true then it will return true 
+
+

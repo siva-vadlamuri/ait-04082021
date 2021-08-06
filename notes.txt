@@ -52,3 +52,11 @@ Static Typed Langauge
 
 --> String Sequence of Characters 
 
+Operators 
+Arthemtaic Operators (+,-,*,/,%,**)
+Assignment Operators 
+Logical operator
+ternary operator
+increment/decrement operator
+Bitwise operator
+
