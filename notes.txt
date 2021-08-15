@@ -60,3 +60,12 @@ ternary operator
 increment/decrement operator
 Bitwise operator
 
+
+
+DOM Document Object Model
+It is Object Model representation of your Current Page
+It is used to manupulate the DOM Structure 
+we modify the Structure of the Web page using JavaScript
+
+
+

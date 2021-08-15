@@ -11,6 +11,8 @@
 
 // const { log } = require("node:console");
 
+// const { log } = require("node:console");
+
 // Loops -->
 // for
 // while
@@ -244,3 +246,27 @@ if (extention !== "pdf") {
 var first = " nameissiva ";
 console.log(first.length);
 console.log(first.trim());
+
+// Arrays, String Methods
+// Strings Methods
+// What are Objects In Java (Storage)
+
+var courseName = "JavaScript";
+console.log(courseName.toLowerCase());
+console.log(courseName.toUpperCase());
+
+// charAt()
+// indexOf()
+console.log(courseName.charAt(0));
+console.log(courseName.indexOf("J"));
+
+// startWith, endsWith
+var email = "example@example.com";
+console.log(email.startsWith("ait"));
+console.log(email.endsWith("@example.com"));
+
+console.log(email.search("-"));
+// Difference between search and indexOf
+// search return is a number
+// Collection of items which are numeric based index
+var arr3 = ["UI Development", "React Js", "Vue Js"];
