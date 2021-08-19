@@ -67,5 +67,16 @@ It is Object Model representation of your Current Page
 It is used to manupulate the DOM Structure 
 we modify the Structure of the Web page using JavaScript
 
+Agenda 
+Functions
+What is Function
+How to declare a function 
+Different types of function
 
+
+What is function?
+Function is piece of code which will perform a special task 
+
+
+What is the difference between Function Declaration and Function Expression 
 
