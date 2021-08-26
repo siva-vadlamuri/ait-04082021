@@ -1,4 +1,7 @@
 //
+
+// Everthing will be executed on the Context
+// Global Execution Context
 x();
 var globalVariable = "I am Global Variable";
 // Array methods
@@ -42,8 +45,8 @@ greetTheUser("Chainya");
 
 // Different type of functions
 // function declaration or function statement
-// anonomous function (A function without a name )
-// function with default paramters
+// anonymous function (A function without a name )
+// function with default parameters
 // function with no parameters
 // function with parameters
 // function expression
@@ -147,6 +150,7 @@ myFunction();
 // Hoisting
 
 // Function Declaration
+// x();
 function x() {
   console.log("I am X");
 }
@@ -159,3 +163,4 @@ const y = function () {
 y();
 
 // Hoisting : We can access the function declaration before its declaration
+// Event

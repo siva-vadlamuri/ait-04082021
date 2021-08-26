@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM-EVENTS</title>
+    <style>
+      body {
+        height: 500vh;
+      }
+      .errText {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+          We Dont want to store Junk Data in The Database 
+          We need to store a relavant information of the person 
+          client side validation 
+          Server Side Validation
+       -->
+    <form novalidate>
+      <input type="text" name="firstName" id="firstName" />
+      <p class="errText" id="firstNameErr"></p>
+      <input type="text" name="lastName" id="lastName" />
+      <p class="errText" id="lastNameErr"></p>
+      <input type="email" name="email" id="email" />
+      <p class="errText" id="emailErr"></p>
+      <input type="password" name="password" id="password" />
+      <p class="errText" id="passwordErr"></p>
+      <p id="responseMessage"></p>
+      <button type="submit" class="btn">Sign up</button>
+    </form>
+    <script src="../javascript/Forms.js"></script>
+  </body>
+</html>

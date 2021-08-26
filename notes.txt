@@ -80,3 +80,23 @@ Function is piece of code which will perform a special task
 
 What is the difference between Function Declaration and Function Expression 
 
+
+Events
+What is Event
+Triggering an Action
+How to Attach The Event
+
+--> May user selects a certain element
+--> Hover the cursor over a certain element 
+--> user is click on certain keys on the keyboard
+--> Form Submitting (Form Validation)
+
+Mouse Events
+click 
+dblclick
+mouseover 
+
+Keyboard Events
+Form Events
+Page Events 
+
