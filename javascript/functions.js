@@ -164,3 +164,9 @@ y();
 
 // Hoisting : We can access the function declaration before its declaration
 // Event
+
+isLogined = false;
+function jsx(isUserLogin) {
+  console.log(isUserLogin);
+}
+jsx(isLogined ? "User Logined" : "Not login");

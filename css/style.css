@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main__header {
+  background-color: #242b2e;
+}
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-items li {
+  list-style-type: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  background-color: #242b2e;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
