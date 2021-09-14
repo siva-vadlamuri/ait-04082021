@@ -37,6 +37,7 @@ class Parent {
     console.log(" parent Constructor Called");
     this.height = height;
     this.width = width;
+    // console.log(this);
   }
   // Constructor is a special member function which will invoke (call ) when an object is created
   //   it will intilization values
@@ -56,9 +57,10 @@ const obj2 = new Parent(1000, 2000);
 
 class Child extends Parent {
   constructor(height, width, radius) {
-    console.log(" child Constructor Called");
+    // console.log(" child Constructor Called");
     super(height, width);
     this.radius = radius;
+
     // this --> current Object
     // super --> which will invoke parent class constuctor
   }
@@ -74,5 +76,35 @@ class Child extends Parent {
 }
 
 const child1 = new Child(100, 200, 300);
-console.log(child1);
-console.log(child1.getTheCircleArea());
+// console.log(child1);
+// console.log(child1.getTheCircleArea());
+
+// Normal Function this points to Window Object (Browser)
+// For Methods this keyword points current Object
+
+
+function myFunc(){
+  let myVariable = 20;
+   function inner(){
+
+   }
+console.log(this)
+}
+myFunc();
+
+// For Normal Function this will point to Window Object in the Browser and Global Object in Node 
+// Objects , this will point to Current Object 
+
+// let
+let obj2 = {
+  firstName : 'Shiva',
+  lastName : 'Varma',
+  // getMyName(){
+  //   console.log(this)
+  // }
+  (function(){
+    console.log(this)
+  })
+  
+}
+// obj2.getMyName();
